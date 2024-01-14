@@ -11,6 +11,7 @@ user = os.environ.get('SNOWFLAKE_USER', 'haithemmh')
 password = urllib.parse.quote_plus(os.environ.get('SNOWFLAKE_PASSWORD', ''))
 account = os.environ.get('SNOWFLAKE_ACCOUNT', 'BCLSTQF-SG71977')
 
+// Svp d'enlever le nom de votre warehouse
 conn = snowflake.connector.connect(
     user='haithemmh',
     password='',
